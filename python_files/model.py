@@ -15,7 +15,6 @@ def createDeepLabv3(outputchannels=1, using_unet=False, train_all=True):
     if train_all == False:
         for param in model.parameters():
             param.requires_grad = False
-    #print(model)
     if using_unet:
         FirstTrial = False
         if FirstTrial:  # ruing memory in CPU
@@ -33,7 +32,6 @@ def createDeepLabv3(outputchannels=1, using_unet=False, train_all=True):
     else:
         model.classifier = DeepLabHead(2048, outputchannels)
 
-    #print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', model)
     # Set the model in training mode
     model.train()
     return model
