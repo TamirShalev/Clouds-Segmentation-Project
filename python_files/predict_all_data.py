@@ -166,4 +166,4 @@ def create_masks(data_dir, num_classes, weights_filename, using_unet=False):
 
 
 if __name__ == '__main__':
-    create_masks('./data', 4, "4class_withacc_new_quan", using_unet=False)
+    create_masks('./data', 4, "weights", using_unet=False)
