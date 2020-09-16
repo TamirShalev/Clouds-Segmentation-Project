@@ -12,7 +12,7 @@ The available architectures are Pytorch's "DeepLabV3-ResNet101" and "Unet" and t
 
 In order to run the available experiments in this project, one requires a specific directory structure:
 The main directory must contain:
-- All the python files (which can be found in 'python_files' in this repository)
+- All the python files (which can be found in 'src' in this repository)
 - The data directory (which can be found in 'data' in this repository)
 - A directory named 'weights' (will be explained shortly)
 - A directory named 'results' (will be explained shortly)
