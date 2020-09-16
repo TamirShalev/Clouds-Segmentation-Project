@@ -90,11 +90,7 @@ def train_model(model, criterion, dataloaders, optimizer, metrics, bpath, num_ep
                             # Use a classification threshold of 0.1
                             batchsummary[f'{phase}_{name}'].append(
                                 metric(y_true > 0, y_pred > 0.1))
-                            
-
-                        #elif name == 'accuracy':
-                         #   batchsummary[f'{phase}_{name}'].append(
-                          #      metric(quantization(y_true), quantization(y_pred)))
+                           
 
                         elif name == 'accuracy':
                             batchsummary[f'{phase}_{name}'].append(
