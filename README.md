@@ -1,6 +1,7 @@
 # Clouds-Segmentation-Project
 
 **Project Description:**
+
 The task is semantic segmentation of cloud satellite images. The dataset consists of IR & Visual Grayscale images of clouds
 with their corresponding masks.
 Each mask consists of 5 classes: Open clouds, Closed clouds, Disorganized clouds, Other clouds and Ocean (no clouds).
@@ -8,6 +9,7 @@ The main objective is to be able to separate between Open clouds, Closed clouds 
 The available architectures are Pytorch's "DeepLabV3-ResNet101" and "Unet" and the number of output classes are 2/3/4/5.
 
 **Directory structure:**
+
 In order to run the available experiments in this project, one requires a specific directory structure:
 The main directory must contain:
 - All the python files (which can be found in 'python_files' in this repository)
@@ -17,6 +19,7 @@ The main directory must contain:
 
 
 **Running experiments:**
+
 Running an experiment requires several arguments:
 - Data directory: Using the directory structure described above, just enter 'data'
 - Output directory: When the training process ends, the best model weights and metrics log file will be saved in this directory. If a non-existing directory path is passed, it will be created.
@@ -37,3 +40,11 @@ After running this command the training process initiates, which during you will
 When the training ends, 2 files named 'weights.pt' and 'log.csv' will appear in your output directory - move 'weights.pt' to your 'weights' directory.
 
 
+**Visualizing results:**
+
+In order to visualize segmentation on training & test images, edit 'predict_all_data.py' file and do the following:
+- In the last code line change the arguments of 'create_mask' to fit the arguments of the recently trained model.
+- Run 'predict_all_data.py'. A pickle file named 'seg_results.p' will be created.
+- Run 'helper.py' and wait for it to finish.
+
+Now in your 'results' directory you can see all the train & test images; for each you can see the original image and mask, and the trained model segmentation of the image.
