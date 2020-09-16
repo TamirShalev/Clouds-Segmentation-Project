@@ -88,4 +88,3 @@ def folder_content_to_negative(in_dir, out_dir):
 
 if __name__ == '__main__':
     pickle_to_png_files('seg_results.p')
-    #folder_content_to_negative("C:/Users/shale/Desktop/IR", "C:/Users/shale/Desktop/negatives")
