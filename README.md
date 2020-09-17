@@ -8,6 +8,11 @@ Each mask consists of 5 classes: Open clouds, Closed clouds, Disorganized clouds
 The main objective is to be able to separate between Open clouds, Closed clouds and no clouds - so eventually this task is a 3 class semantic segmentation task.
 The available architectures are Pytorch's "DeepLabV3-ResNet101" and "Unet" and the number of output classes are 2/3/4/5.
 
+**Some results:**
+
+![img_15](https://user-images.githubusercontent.com/69245972/93467389-5af6fa00-f8f6-11ea-9a7b-083234ffefca.png)
+
+![img_12](https://user-images.githubusercontent.com/69245972/93467449-6ba77000-f8f6-11ea-9af4-919af6088554.png)
 **Directory structure:**
 
 In order to run the available experiments in this project, one requires a specific directory structure:
