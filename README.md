@@ -49,3 +49,5 @@ In order to visualize segmentation on training & test images, edit 'predict_all_
 - Run 'helper.py' and wait for it to finish.
 
 Now in your 'results' directory you can see all the train & test images; for each you can see the original image and mask, and the trained model segmentation of the image.
+
+For a visualization of an end-to-end process please refer to the Visualization notebook.
