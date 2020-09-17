@@ -13,6 +13,9 @@ The available architectures are Pytorch's "DeepLabV3-ResNet101" and "Unet" and t
 ![img_15](https://user-images.githubusercontent.com/69245972/93467389-5af6fa00-f8f6-11ea-9a7b-083234ffefca.png)
 
 
+![img_12](https://user-images.githubusercontent.com/69245972/93468002-00aa6900-f8f7-11ea-9035-c19232bc7ed3.png)
+
+
 **Directory structure:**
 
 In order to run the available experiments in this project, one requires a specific directory structure:
