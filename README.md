@@ -14,6 +14,7 @@ In order to run the available experiments in this project, one requires a specif
 The main directory must contain:
 - All the python files (which can be found in 'src' in this repository)
 - The data directory (which can be found in 'data' in this repository)
+- The models directory (which can be found in 'models' in this repository)
 - A directory named 'weights' (will be explained shortly)
 - A directory named 'results' (will be explained shortly)
 
