@@ -1,4 +1,4 @@
-# Clouds-Segmentation-Project
+## Clouds-Segmentation-Project
 
 **Project Description:**
 
@@ -12,7 +12,7 @@ The available architectures are Pytorch's "DeepLabV3-ResNet101" and "Unet" and t
 
 ![img_15](https://user-images.githubusercontent.com/69245972/93467389-5af6fa00-f8f6-11ea-9a7b-083234ffefca.png)
 
-![img_12](https://user-images.githubusercontent.com/69245972/93467449-6ba77000-f8f6-11ea-9af4-919af6088554.png)
+
 **Directory structure:**
 
 In order to run the available experiments in this project, one requires a specific directory structure:
